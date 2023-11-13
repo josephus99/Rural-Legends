@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    
+    var jumbotron = document.createElement('div');
+    jumbotron.className = 'jumbotron';
+    document.body.appendChild(jumbotron);
+    var header = document.createElement('h1');
+    header.innerHTML = 'Rural Legends';
+    header.style.textAlign = 'center';
+    jumbotron.appendChild(header);
+    
+    var subtitle = document.createElement('h2');
+    subtitle.innerHTML = 'The Sequential Art Narrative Website';
+    subtitle.style.textAlign = 'center';
+    subtitle.style.borderRadius = '50%';
+    subtitle.style.width = '50%';
+    subtitle.style.margin = 'auto';
+    subtitle.style.backgroundColor = '#FFF';
+    subtitle.style.padding = '10px';
+    jumbotron.appendChild(subtitle);
+    
+    var home = document.createElement('a');
+    home.innerHTML = 'Home';
+    home.className = 'btn btn-primary';
+    home.style.marginRight = '10px';
+    home.href = '#';
+    header.appendChild(home);
+    var about = document.createElement('a');
+    about.innerHTML = 'About Us';
+    about.className = 'btn btn-primary';
+    about.href = '#';
+    header.appendChild(about);
+    
+    home.className = 'btn btn-primary btn-xs';
+    about.className = 'btn btn-primary btn-xs';
+    
+    header.style.fontSize = '50%';
+    subtitle.style.fontSize = '50%';
+    
+    home.style.float = 'left';
+    about.style.float = 'left';
+    
+    header.style.textAlign = 'center';
+    
+    header.style.marginBottom = '0px';
+    
+    var login = document.createElement('a');
+    login.innerHTML = 'Log In';
+    login.className = 'btn btn-primary btn-xs';
+    login.style.float = 'right';
+    login.href = '#';
+    header.appendChild(login);
+    var signup = document.createElement('a');
+    signup.innerHTML = 'Sign Up';
+    signup.className = 'btn btn-primary btn-xs';
+    signup.style.float = 'right';
+    signup.href = '#';
+    header.appendChild(signup);
+    
+    signup.style.marginRight = '10px';
+    
+    var navbar = document.createElement('div');
+    navbar.className = 'navbar navbar-default';
+    navbar.style.marginTop = '5px';
+    jumbotron.appendChild(navbar);
+    
+    jumbotron.style.backgroundColor = '#ADD8E6';
+    
+    jumbotron.style.padding = '10px';
+    
+    jumbotron.style.padding = '15px';
+    
+    jumbotron.style.padding = '20px';
+    
+    var characterBios = document.createElement('a');
+    characterBios.innerHTML = 'Character Bios';
+    characterBios.className = 'btn btn-primary';
+    characterBios.style.marginRight = '10px';
+    characterBios.href = '#';
+    navbar.appendChild(characterBios);
+    
+    characterBios.style.marginTop = '20px';
+    
+    characterBios.style.float = 'left';
+    
+    characterBios.className = 'btn btn-primary btn-xs';
+    
+    var leaveMessage = document.createElement('a');
+    leaveMessage.innerHTML = 'Leave Message';
+    leaveMessage.className = 'btn btn-primary btn-xs';
+    leaveMessage.style.float = 'right';
+    leaveMessage.href = '#';
+    navbar.appendChild(leaveMessage);
+    
+    leaveMessage.style.marginTop = '20px';
+    
+    document.body.style.backgroundColor = '#FFB6C1';
+    
+    document.body.style.backgroundColor = '#B22222';
+    
+    document.body.style.backgroundColor = '#0000CD';
+    
+    document.body.style.backgroundColor = '#87CEEB';
+    
+    jumbotron.style.marginLeft = '0px';
+    jumbotron.style.marginRight = '0px';
+    
+    subtitle.style.backgroundColor = '#87CEEB';
+    
+    home.className = 'btn btn-primary btn-xs';
+    about.className = 'btn btn-primary btn-xs';
+    login.className = 'btn btn-primary btn-xs';
+    signup.className = 'btn btn-primary btn-xs';
+    characterBios.className = 'btn btn-primary btn-xs';
+    leaveMessage.className = 'btn btn-primary btn-xs';
+    
+    var ruralLegendsPortal = document.createElement('h1');
+    ruralLegendsPortal.innerHTML = 'Rural Legends Portal';
+    ruralLegendsPortal.style.textAlign = 'center';
+    ruralLegendsPortal.style.marginTop = '10px';
+    document.body.appendChild(ruralLegendsPortal);
+    
+    var door = document.createElement('div');
+    door.style.width = '50%';
+    door.style.height = '50%';
+    door.style.margin = 'auto';
+    door.style.backgroundColor = '#B22222';
+    door.style.borderRadius = '50%';
+    door.style.position = 'relative';
+    door.style.marginTop = '10px';
+    document.body.appendChild(door);
+    var knob = document.createElement('a');
+    knob.innerHTML = 'Featured KY';
+    knob.className = 'btn btn-primary';
+    knob.style.position = 'absolute';
+    knob.style.top = '50%';
+    knob.style.left = '50%';
+    knob.style.transform = 'translate(-50%, -50%)';
+    knob.href = '#';
+    door.appendChild(knob);
+    
+    door.style.width = '5%';
+    door.style.height = '5%';
+    
+    door.style.width = '50%';
+    door.style.height = '50%';
+    
+    door.style.width = '10%';
+    door.style.height = '10%';
+    
+    knob.style.fontSize = '10px';
+    
+    knob.innerHTML = 'Featured<br>KY';
+    
+    knob.innerHTML = 'Featured<br>Kentucky';
+    
+    knob.style.textAlign = 'center';
+    
+    door.style.backgroundColor = '#0000CD';
+    
+    knob.style.color = '#FFF';
+    
+    var zone1 = document.createElement('div');
+    zone1.style.width = '10%';
+    zone1.style.height = '10%';
+    zone1.style.margin = 'auto';
+    zone1.style.backgroundColor = '#0000CD';
+    zone1.style.borderRadius = '50%';
+    zone1.style.position = 'relative';
+    zone1.style.marginTop = '10px';
+    zone1.style.float = 'left';
+    document.body.appendChild(zone1);
+    var zone1Knob = document.createElement('a');
+    zone1Knob.innerHTML = 'Zone 1';
+    zone1Knob.className = 'btn btn-primary';
+    zone1Knob.style.position = 'absolute';
+    zone1Knob.style.top = '50%';
+    zone1Knob.style.left = '50%';
+    zone1Knob.style.transform = 'translate(-50%, -50%)';
+    zone1Knob.href = '#';
+    zone1.appendChild(zone1Knob);
+    var zone2 = document.createElement('div');
+    zone2.style.width = '10%';
+    zone2.style.height = '10%';
+    zone2.style.margin = 'auto';
+    zone2.style.backgroundColor = '#0000CD';
+    zone2.style.borderRadius = '50%';
+    zone2.style.position = 'relative';
+    zone2.style.marginTop = '10px';
+    zone2.style.float = 'left';
+    document.body.appendChild(zone2);
+    var zone2Knob = document.createElement('a');
+    zone2Knob.innerHTML = 'Zone 2';
+    zone2Knob.className = 'btn btn-primary';
+    zone2Knob.style.position = 'absolute';
+    zone2Knob.style.top = '50%';
+    zone2Knob.style.left = '50%';
+    zone2Knob.style.transform = 'translate(-50%, -50%)';
+    zone2Knob.href = '#';
+    zone2.appendChild(zone2Knob);
+    
+    zone1Knob.style.color = '#FFF';
+    zone2Knob.style.color = '#FFF';
+    zone1.style.marginRight = '5px';
+    
+    zone1Knob.style.fontSize = '10px';
+    zone2Knob.style.fontSize = '10px';
+    
+    var zone3 = document.createElement('div');
+    zone3.style.width = '10%';
+    zone3.style.height = '10%';
+    zone3.style.margin = 'auto';
+    zone3.style.backgroundColor = '#0000CD';
+    zone3.style.borderRadius = '50%';
+    zone3.style.position = 'relative';
+    zone3.style.marginTop = '10px';
+    zone3.style.float = 'left';
+    document.body.appendChild(zone3);
+    var zone3Knob = document.createElement('a');
+    zone3Knob.innerHTML = 'Zone 3';
+    zone3Knob.className = 'btn btn-primary';
+    zone3Knob.style.position = 'absolute';
+    zone3Knob.style.top = '50%';
+    zone3Knob.style.left = '50%';
+    zone3Knob.style.transform = 'translate(-50%, -50%)';
+    zone3Knob.href = '#';
+    zone3.appendChild(zone3Knob);
+    var zone4 = document.createElement('div');
+    zone4.style.width = '10%';
+    zone4.style.height = '10%';
+    zone4.style.margin = 'auto';
+    zone4.style.backgroundColor = '#0000CD';
+    zone4.style.borderRadius = '50%';
+    zone4.style.position = 'relative';
+    zone4.style.marginTop = '10px';
+    zone4.style.float = 'left';
+    document.body.appendChild(zone4);
+    var zone4Knob = document.createElement('a');
+    zone4Knob.innerHTML = 'Zone 4';
+    zone4Knob.className = 'btn btn-primary';
+    zone4Knob.style.position = 'absolute';
+    zone4Knob.style.top = '50%';
+    zone4Knob.style.left = '50%';
+    zone4Knob.style.transform = 'translate(-50%, -50%)';
+    zone4Knob.href = '#';
+    zone4.appendChild(zone4Knob);
+    zone3Knob.style.color = '#FFF';
+    zone4Knob.style.color = '#FFF';
+    zone3Knob.style.fontSize = '10px';
+    zone4Knob.style.fontSize = '10px';
+    
+    zone3.style.float = 'right';
+    zone4.style.float = 'right';
+    
+    zone1.style.marginRight = '5px';
+    zone2.style.marginRight = '5px';
+    zone3.style.marginLeft = '5px';
+    
+    zone3.style.marginLeft = '10px';
+    
+    zone3.style.marginLeft = '25px';
+    
+    zone3.style.marginLeft = '40px';
+    
+    zone1.style.marginRight = '50px';
+    
+    zone3.style.marginLeft = '50px';
+    
+    zone3.style.float = 'left';
+    zone4.style.float = 'right';
+    
+    zone3.style.float = 'right';
+    zone4.style.float = 'left';
+    
+    zone4.style.marginLeft = '50px';
+    
+    zone4.style.marginLeft = '0px';
+    
+    zone4.style.float = 'right';
+    
+    zone3Knob.innerHTML = 'Zone 4';
+    zone4Knob.innerHTML = 'Zone 3';
+    
+    var zone1Cylinder = document.createElement('div');
+    zone1Cylinder.style.width = '10%';
+    zone1Cylinder.style.height = '10%';
+    zone1Cylinder.style.margin = 'auto';
+    zone1Cylinder.style.backgroundColor = '#0000CD';
+    zone1Cylinder.style.borderRadius = '50%';
+    zone1Cylinder.style.position = 'relative';
+    zone1Cylinder.style.marginTop = '10px';
+    zone1Cylinder.style.float = 'left';
+    document.body.appendChild(zone1Cylinder);
+    var zone1CylinderKnob = document.createElement('a');
+    zone1CylinderKnob.innerHTML = '10 RL States';
+    zone1CylinderKnob.className = 'btn btn-primary';
+    zone1CylinderKnob.style.position = 'absolute';
+    zone1CylinderKnob.style.top = '50%';
+    zone1CylinderKnob.style.left = '50%';
+    zone1CylinderKnob.style.transform = 'translate(-50%, -50%)';
+    zone1CylinderKnob.href = '#';
+    zone1Cylinder.appendChild(zone1CylinderKnob);
+    var zone2Cylinder = document.createElement('div');
+    zone2Cylinder.style.width = '10%';
+    zone2Cylinder.style.height = '10%';
+    zone2Cylinder.style.margin = 'auto';
+    zone2Cylinder.style.backgroundColor = '#0000CD';
+    zone2Cylinder.style.borderRadius = '50%';
+    zone2Cylinder.style.position = 'relative';
+    zone2Cylinder.style.marginTop = '10px';
+    zone2Cylinder.style.float = 'left';
+    document.body.appendChild(zone2Cylinder);
+    var zone2CylinderKnob = document.createElement('a');
+    zone2CylinderKnob.innerHTML = '15 RL States';
+    zone2CylinderKnob.className = 'btn btn-primary';
+    zone2CylinderKnob.style.position = 'absolute';
+    zone2CylinderKnob.style.top = '50%';
+    zone2CylinderKnob.style.left = '50%';
+    zone2CylinderKnob.style.transform = 'translate(-50%, -50%)';
+    zone2CylinderKnob.href = '#';
+    zone2Cylinder.appendChild(zone2CylinderKnob);
+    var zone3Cylinder = document.createElement('div');
+    zone3Cylinder.style.width = '10%';
+    zone3Cylinder.style.height = '10%';
+    zone3Cylinder.style.margin = 'auto';
+    zone3Cylinder.style.backgroundColor = '#0000CD';
+    zone3Cylinder.style.borderRadius = '50%';
+    zone3Cylinder.style.position = 'relative';
+    zone3Cylinder.style.marginTop = '10px';
+    zone3Cylinder.style.float = 'left';
+    document.body.appendChild(zone3Cylinder);
+    var zone3CylinderKnob = document.createElement('a');
+    zone3CylinderKnob.innerHTML = '10 RL States';
+    zone3CylinderKnob.className = 'btn btn-primary';
+    zone3CylinderKnob.style.position = 'absolute';
+    zone3CylinderKnob.style.top = '50%';
+    zone3CylinderKnob.style.left = '50%';
+    zone3CylinderKnob.style.transform = 'translate(-50%, -50%)';
+    zone3CylinderKnob.href = '#';
+    zone3Cylinder.appendChild(zone3CylinderKnob);
+    var zone4Cylinder = document.createElement('div');
+    zone4Cylinder.style.width = '10%';
+    zone4Cylinder.style.height = '10%';
+    zone4Cylinder.style.margin = 'auto';
+    zone4Cylinder.style.backgroundColor = '#
+    
+    var zone1Cylinder = document.createElement('div');
+    zone1Cylinder.style.width = '10%';
+    zone1Cylinder.style.height = '10%';
+    zone1Cylinder.style.margin = 'auto';
+    zone1Cylinder.style.backgroundColor = '#0000CD';
+    zone1Cylinder.style.borderRadius = '50%';
+    zone1Cylinder.style.position = 'relative';
+    zone1Cylinder.style.marginTop = '10px';
+    zone1Cylinder.style.float = 'left';
+    document.body.appendChild(zone1Cylinder);
+    var zone1CylinderKnob = document.createElement('a');
+    zone1CylinderKnob.innerHTML = '10 RL States';
+    zone1CylinderKnob.className = 'btn btn-primary';
+    zone1CylinderKnob.style.position = 'absolute';
+    zone1CylinderKnob.style.top = '50%';
+    zone1CylinderKnob.style.left = '50%';
+    zone1CylinderKnob.style.transform = 'translate(-50%, -50%)';
+    zone1CylinderKnob.href = '#';
+    zone1Cylinder.appendChild(zone1CylinderKnob);
+    zone1CylinderKnob.style.color = '#FFF';
+    
+    zone1Cylinder.style.marginTop = '20px';
+    
+    document.body.removeChild(zone1Cylinder);
+    
+    zone1.style.marginTop = '20px';
+    zone2.style.marginTop = '20px';
+    zone3.style.marginTop = '20px';
+    zone4.style.marginTop = '20px';
+    
+    var carousel = document.createElement('div');
+    carousel.className = 'carousel slide';
+    carousel.style.margin = 'auto';
+    carousel.style.marginTop = '20px';
+    carousel.style.width = '50%';
+    document.body.appendChild(carousel);
+    var carouselInner = document.createElement('div');
+    carouselInner.className = 'carousel-inner';
+    carousel.appendChild(carouselInner);
+    var item1 = document.createElement('div');
+    item1.className = 'item active';
+    carouselInner.appendChild(item1);
+    var item1Image = document.createElement('img');
+    item1Image.src = 'http://www.rurallegends.com/images/rurallegends.jpg';
+    item1Image.style.width = '100%';
+    item1.appendChild(item1Image);
+    var item2 = document.createElement('div');
+    item2.className = 'item';
+    carouselInner.appendChild(item2);
+    var item2Image = document.createElement('img');
+    item2Image.src = 'http://www.rurallegends.com/images/rurallegends.jpg';
+    item2Image.style.width = '100%';
+    item2.appendChild(item2Image);
+    var item3 = document.createElement('div');
+    item3.className = 'item';
+    carouselInner.appendChild(item3);
+    var item3Image = document.createElement('img');
+    item3Image.src = 'http://www.rurallegends.com/images/rurallegends.jpg';
+    item3Image.style.width = '100%';
+    item3.appendChild(item3Image);
+    var left = document.createElement('a');
+    left.className = 'left carousel-control';
+    left.href = '#carousel-example-generic';
+    left.setAttribute('data-slide', 'prev');
+    carousel.appendChild(left);
+    var leftSpan = document.createElement('span');
+    leftSpan.className = 'glyphicon glyphicon-chevron-left';
+    left.appendChild(leftSpan);
+    var right = document.createElement('a');
+    right.className = 'right carousel-control';
+    right.href = '#carousel-example-generic';
+    right.setAttribute('data-slide', 'next');
+    carousel.appendChild(right);
+    var rightSpan = document.createElement('span');
+    rightSpan.className = 'glyphicon glyphicon-chevron-right';
+    right.appendChild(rightSpan);
+    
+    carousel.style.height = '70%';
+    
+    carousel.style.width = '70%';
+    carousel.style.height = '30%';
+    
+    carousel.style.height = '25%';
+    
+    carousel.style.marginTop = '20px';
+    
+    carousel.style.height = '33%';
+    
+    carousel.style.width = '50%';
+    carousel.style.height = '50%';
+    
+    zone1.style.marginTop = '10px';
+    zone2.style.marginTop = '10px';
+    zone3.style.marginTop = '10px';
+    zone4.style.marginTop = '10px';
+    
+    carousel.style.height = '60%';
+    });
+ </script>
+</head>
+<body style="margin: 0;">
+ <div style="background-color: black; position: fixed; bottom: 0; width: 100%; height: 20px; padding: 20px; opacity: .85; z-index: 1000;">
+    <svg id="Layer_1" data-name="Layer 1" height="40px" width="40px" style="top: -8px;
+       position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+       <defs>
+          <style>.cls-1{fill:#fff;}</style>
+       </defs>
+       <title>openai-symbol-flat-white</title>
+       <path class="cls-1" d="M617.24,354a126.36,126.36,0,0,0-10.86-103.79,127.8,127.8,0,0,0-137.65-61.32,126.36,126.36,0,0,0-95.31-42.49A127.81,127.81,0,0,0,251.5,234.89,126.4,126.4,0,0,0,167,296.19a127.82,127.82,0,0,0,15.72,149.86,126.36,126.36,0,0,0,10.86,103.79,127.81,127.81,0,0,0,137.65,61.32,126.36,126.36,0,0,0,95.31,42.49A127.81,127.81,0,0,0,548.5,565.11,126.4,126.4,0,0,0,633,503.81,127.82,127.82,0,0,0,617.24,354ZM426.58,620.49a94.79,94.79,0,0,1-60.85-22c.77-.42,2.12-1.16,3-1.7l101-58.34a16.42,16.42,0,0,0,8.3-14.37V381.69l42.69,24.65a1.52,1.52,0,0,1,.83,1.17V525.43A95.18,95.18,0,0,1,426.58,620.49ZM222.34,533.26A94.74,94.74,0,0,1,211,469.56c.75.45,2.06,1.25,3,1.79l101,58.34a16.44,16.44,0,0,0,16.59,0l123.31-71.2v49.3a1.53,1.53,0,0,1-.61,1.31L352.19,568.05A95.16,95.16,0,0,1,222.34,533.26ZM195.77,312.77a94.71,94.71,0,0,1,49.48-41.68c0,.87-.05,2.41-.05,3.48V391.25a16.41,16.41,0,0,0,8.29,14.36L376.8,476.8l-42.69,24.65a1.53,1.53,0,0,1-1.44.13l-102.11-59A95.16,95.16,0,0,1,195.77,312.77Zm350.74,81.62L423.2,323.19l42.69-24.64a1.53,1.53,0,0,1,1.44-.13l102.11,58.95a95.08,95.08,0,0,1-14.69,171.55c0-.88,0-2.42,0-3.49V408.75A16.4,16.4,0,0,0,546.51,394.39ZM589,330.44c-.75-.46-2.06-1.25-3-1.79L485,270.31a16.46,16.46,0,0,0-16.59,0l-123.31,71.2v-49.3a1.53,1.53,0,0,1,.61-1.31L447.81,232A95.07,95.07,0,0,1,589,330.44ZM321.89,418.31l-42.7-24.65a1.52,1.52,0,0,1-.83-1.17V274.57a95.07,95.07,0,0,1,155.9-73c-.77.42-2.11,1.16-3,1.7l-101,58.34a16.41,16.41,0,0,0-8.3,14.36Zm23.19-50L400,336.59l54.92,31.7v63.42L400,463.41l-54.92-31.7Z"/>
+    </svg>
+    <div style="display: inline-block; color: white; vertical-align: top; margin-top: 4px; font-family: Helvetica, sans-serif;">
+       Code generated by <a style="color: white; text-decoration: none; font-weight: bold;" href="https://openai.com/blog/openai-codex/">OpenAI Codex</a>
+    </div>
+ </div>
+</body>
+</html>
+<body>
+    
+</body>
+</html>
